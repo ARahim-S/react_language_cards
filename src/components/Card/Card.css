@@ -1,0 +1,30 @@
+.cards-area-container {
+  width: 450px;
+  border-radius: 0.5rem;
+  background-color: rgb(204, 97, 48);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.cards-container {
+  width: 100%;
+  padding: 2rem;
+  margin: 0.5rem 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 1rem;
+  z-index: 1;
+}
+
+.bars {
+  position: absolute;
+  width: 7rem;
+  height: 80rem;
+  background-color: rgb(26, 124, 124);
+  transform: rotate(-45deg);
+  top: 0rem;
+  left: 20rem;
+}
